@@ -1,0 +1,65 @@
+<AML>
+	<Item type="ItemType" id="4F1AC04A2B484F3ABA4E20DB63808A88" action="add">
+		<name>Part</name>
+		<Relationships>
+			<Item type="Property" id="47AFE303B7574DB2BDFF09494C529636" action="add">
+				<column_alignment>left</column_alignment>
+				<data_source keyed_name="labs_CityList">8A4E6D46AFE746AAB672D3DC565725DB</data_source>
+				<data_type>filter list</data_type>
+				<is_hidden>0</is_hidden>
+				<is_hidden2>0</is_hidden2>
+				<is_indexed>0</is_indexed>
+				<is_keyed>0</is_keyed>
+				<is_multi_valued>0</is_multi_valued>
+				<is_required>0</is_required>
+				<label xml:lang="en">City</label>
+				<pattern>labs_country</pattern>
+				<range_inclusive>0</range_inclusive>
+				<readonly>0</readonly>
+				<sort_order>95256</sort_order>
+				<source_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</source_id>
+				<stored_length>256</stored_length>
+				<track_history>0</track_history>
+				<name>labs_city</name>
+			</Item>
+			<Item type="Property" id="B1B3E63E2EA14101B0265CAA6AC9B495" action="add">
+				<column_alignment>left</column_alignment>
+				<data_source keyed_name="labs_CountryList">4C5223B7981546488BD3692C85EED98C</data_source>
+				<data_type>list</data_type>
+				<is_hidden>0</is_hidden>
+				<is_hidden2>0</is_hidden2>
+				<is_indexed>0</is_indexed>
+				<is_keyed>0</is_keyed>
+				<is_multi_valued>0</is_multi_valued>
+				<is_required>0</is_required>
+				<label xml:lang="en">Country</label>
+				<range_inclusive>0</range_inclusive>
+				<readonly>0</readonly>
+				<sort_order>95128</sort_order>
+				<source_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</source_id>
+				<stored_length>256</stored_length>
+				<track_history>0</track_history>
+				<name>labs_country</name>
+			</Item>
+			<Item type="Property" id="AEA7D27B4236496EA89A3665BF1FF5B2" action="add">
+				<column_alignment>left</column_alignment>
+				<data_source keyed_name="labs_PlantList">D08FBD31EFED446FB83F9D22E93742FB</data_source>
+				<data_type>list</data_type>
+				<is_hidden>0</is_hidden>
+				<is_hidden2>0</is_hidden2>
+				<is_indexed>0</is_indexed>
+				<is_keyed>0</is_keyed>
+				<is_multi_valued>0</is_multi_valued>
+				<is_required>0</is_required>
+				<label xml:lang="en">Plant</label>
+				<range_inclusive>0</range_inclusive>
+				<readonly>0</readonly>
+				<sort_order>95384</sort_order>
+				<source_id keyed_name="Part" type="ItemType" name="Part">4F1AC04A2B484F3ABA4E20DB63808A88</source_id>
+				<stored_length>256</stored_length>
+				<track_history>0</track_history>
+				<name>labs_plant</name>
+			</Item>
+		</Relationships>
+	</Item>
+</AML>

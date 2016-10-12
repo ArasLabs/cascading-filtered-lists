@@ -1,0 +1,139 @@
+<AML>
+	<Item type="Form" id="CAF99D0A8E6E44E9A681C38015FACE91" action="add">
+		<category_form>0</category_form>
+		<height>399</height>
+		<stylesheet>
+			<![CDATA[../styles/default.css]]>
+		</stylesheet>
+		<width>784</width>
+		<name>Part</name>
+		<Relationships>
+			<Item type="Body" id="83907DEF8B3044A08BDCBB77B1C0517E" action="add">
+				<source_id keyed_name="Part" type="Form">CAF99D0A8E6E44E9A681C38015FACE91</source_id>
+				<Relationships>
+					<Item type="Field" id="3BA73F710BB04E8EADF223DCC9B055A7" action="add">
+						<border_width>0</border_width>
+						<container>locGrp</container>
+						<css></css>
+						<display_length>120</display_length>
+						<display_length_unit>px</display_length_unit>
+						<field_type>dropdown</field_type>
+						<font_color>#000000</font_color>
+						<font_family>tahoma, arial, helvetica, sans-serif</font_family>
+						<font_size>8pt</font_size>
+						<font_weight>bold</font_weight>
+						<is_disabled>0</is_disabled>
+						<is_visible>1</is_visible>
+						<label xml:lang="en">City</label>
+						<label_position>top</label_position>
+						<list_no_blank>0</list_no_blank>
+						<positioning>static</positioning>
+						<propertytype_id keyed_name="labs_city" type="Property">47AFE303B7574DB2BDFF09494C529636</propertytype_id>
+						<sort_order>4864</sort_order>
+						<source_id keyed_name="83907DEF8B3044A08BDCBB77B1C0517E" type="Body">83907DEF8B3044A08BDCBB77B1C0517E</source_id>
+						<tab_index>95256</tab_index>
+						<tab_stop>1</tab_stop>
+						<x>472</x>
+						<y>214</y>
+						<name>labs_city</name>
+						<Relationships>
+							<Item type="Field Event" id="D61E0120B9CE4A348FCE4229A65907BD" action="add">
+								<field_event>onchange</field_event>
+								<related_id keyed_name="labs_UpdatePlantList" type="Method">
+									<Item type="Method" action="get" select="id">
+										<name>labs_UpdatePlantList</name>
+									</Item>
+								</related_id>
+								<sort_order>128</sort_order>
+								<source_id keyed_name="labs_city" type="Field">3BA73F710BB04E8EADF223DCC9B055A7</source_id>
+							</Item>
+						</Relationships>
+					</Item>
+					<Item type="Field" id="9FDC3A1F68C94FB1948101D77AD69A27" action="add">
+						<border_width>0</border_width>
+						<container>locGrp</container>
+						<css/>
+						<display_length>120</display_length>
+						<display_length_unit>px</display_length_unit>
+						<field_type>dropdown</field_type>
+						<font_color>#000000</font_color>
+						<font_family>tahoma, arial, helvetica, sans-serif</font_family>
+						<font_size>8pt</font_size>
+						<font_weight>bold</font_weight>
+						<is_disabled>0</is_disabled>
+						<is_visible>1</is_visible>
+						<label xml:lang="en">Country</label>
+						<label_position>top</label_position>
+						<list_no_blank>0</list_no_blank>
+						<positioning>static</positioning>
+						<propertytype_id keyed_name="labs_country" type="Property">B1B3E63E2EA14101B0265CAA6AC9B495</propertytype_id>
+						<sort_order>4736</sort_order>
+						<source_id keyed_name="83907DEF8B3044A08BDCBB77B1C0517E" type="Body">83907DEF8B3044A08BDCBB77B1C0517E</source_id>
+						<tab_index>95128</tab_index>
+						<tab_stop>1</tab_stop>
+						<x>194</x>
+						<y>199</y>
+						<name>labs_country</name>
+					</Item>
+					<Item type="Field" id="A092B54C849F4CD992FA3605BAB16B8D" action="add">
+						<border_width>0</border_width>
+						<container>locGrp</container>
+						<css/>
+						<display_length>120</display_length>
+						<display_length_unit>px</display_length_unit>
+						<field_type>dropdown</field_type>
+						<font_color>#000000</font_color>
+						<font_family>tahoma, arial, helvetica, sans-serif</font_family>
+						<font_size>8pt</font_size>
+						<font_weight>bold</font_weight>
+						<is_disabled>0</is_disabled>
+						<is_visible>1</is_visible>
+						<label xml:lang="en">Plant</label>
+						<label_position>top</label_position>
+						<list_no_blank>0</list_no_blank>
+						<positioning>static</positioning>
+						<propertytype_id keyed_name="labs_plant" type="Property">AEA7D27B4236496EA89A3665BF1FF5B2</propertytype_id>
+						<sort_order>4992</sort_order>
+						<source_id keyed_name="83907DEF8B3044A08BDCBB77B1C0517E" type="Body">83907DEF8B3044A08BDCBB77B1C0517E</source_id>
+						<tab_index>95384</tab_index>
+						<tab_stop>1</tab_stop>
+						<x>472</x>
+						<y>213</y>
+						<name>labs_plant</name>
+					</Item>
+					<Item type="Field" id="00DBD9AE69F446F4B23F982391B21223" action="add">
+						<bg_color>#afeeee</bg_color>
+						<css/>
+						<display_length_unit>px</display_length_unit>
+						<field_type>groupbox</field_type>
+						<font_color>#000000</font_color>
+						<font_family>tahoma, arial, helvetica, sans-serif</font_family>
+						<font_size>8pt</font_size>
+						<font_weight>bold</font_weight>
+						<is_disabled>0</is_disabled>
+						<is_visible>1</is_visible>
+						<label xml:lang="en">Source Location</label>
+						<label_position>top</label_position>
+						<list_no_blank>0</list_no_blank>
+						<sort_order>5120</sort_order>
+						<source_id keyed_name="83907DEF8B3044A08BDCBB77B1C0517E" type="Body">83907DEF8B3044A08BDCBB77B1C0517E</source_id>
+						<tab_stop>1</tab_stop>
+						<x>199</x>
+						<y>214</y>
+						<name>locGrp</name>
+					</Item>
+				</Relationships>
+			</Item>
+			<Item type="Form Event" id="C7164ECF24AA4A85AC803BC51E699C07" action="add">
+				<form_event>onload</form_event>
+				<related_id keyed_name="labs_PopulatePlantList" type="Method">
+					<Item type="Method" action="get" select="id">
+						<name>labs_PopulatePlantList</name>
+					</Item>
+				</related_id>
+				<sort_order>896</sort_order>
+				<source_id keyed_name="Part" type="Form">CAF99D0A8E6E44E9A681C38015FACE91</source_id>
+			</Item>
+		</Relationships>
+	</Item>
+	<AML>
