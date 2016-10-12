@@ -1,4 +1,3 @@
 <imports>
   <package name="aras.labs.CascadingFilteredLists" path="CascadingFilteredLists\Import" />
-	<package name="com.aras.innovator.solution.PLM" path="PLM\Import" />
 </imports>

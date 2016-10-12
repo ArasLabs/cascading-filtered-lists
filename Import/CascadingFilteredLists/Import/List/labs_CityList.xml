@@ -1,0 +1,71 @@
+﻿<AML>
+ <Item type="List" id="8A4E6D46AFE746AAB672D3DC565725DB" action="add">
+  <description>List of cities where Company X has plants</description>
+  <name>labs_CityList</name>
+  <Relationships>
+   <Item type="Filter Value" id="00E361506166469684AE5455E28EC75C" action="add">
+    <filter>DE</filter>
+    <label xml:lang="en">Berlin</label>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>BER</value>
+   </Item>
+   <Item type="Filter Value" id="342235B2A64444B1AB8B931AA883CB60" action="add">
+    <filter>USA</filter>
+    <label xml:lang="en">Boston</label>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>BOS</value>
+   </Item>
+   <Item type="Filter Value" id="825C55302868439E9846AD0DD85AFA17" action="add">
+    <filter>USA</filter>
+    <label xml:lang="en">Chicago</label>
+    <sort_order>6</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>CHI</value>
+   </Item>
+   <Item type="Filter Value" id="CCE71C646D9341EC89200892EBD83537" action="add">
+    <filter>USA</filter>
+    <label xml:lang="en">Los Angeles</label>
+    <sort_order>8</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>LAX</value>
+   </Item>
+   <Item type="Filter Value" id="CE0F014104344C6F9F03B14AFC016C16" action="add">
+    <filter>FR</filter>
+    <label xml:lang="en">Lyon</label>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>LYN</value>
+   </Item>
+   <Item type="Filter Value" id="04C0064E36624C69AC343EE8C9D1ACDC" action="add">
+    <filter>DE</filter>
+    <label xml:lang="en">Munich</label>
+    <sort_order>12</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>MUC</value>
+   </Item>
+   <Item type="Filter Value" id="617E318292B2433F871A13B9BB307695" action="add">
+    <filter>USA</filter>
+    <label xml:lang="en">New York</label>
+    <sort_order>14</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>NYC</value>
+   </Item>
+   <Item type="Filter Value" id="1290098EDE104D7AAC270F093C67FB52" action="add">
+    <filter>FR</filter>
+    <label xml:lang="en">Nice</label>
+    <sort_order>16</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>NCE</value>
+   </Item>
+   <Item type="Filter Value" id="3B4B2E840645432196BC611CAC8E584E" action="add">
+    <filter>FR</filter>
+    <label xml:lang="en">Paris</label>
+    <sort_order>18</sort_order>
+    <source_id keyed_name="labs_CityList" type="List">8A4E6D46AFE746AAB672D3DC565725DB</source_id>
+    <value>PAR</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

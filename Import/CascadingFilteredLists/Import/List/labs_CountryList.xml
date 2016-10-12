@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="List" id="4C5223B7981546488BD3692C85EED98C" action="add">
+  <description>List of countries where Company X has plants</description>
+  <name>labs_CountryList</name>
+  <Relationships>
+   <Item type="Value" id="69E2C8301EF24E3E9233E4EE47813005" action="add">
+    <label xml:lang="en">France</label>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="labs_CountryList" type="List">4C5223B7981546488BD3692C85EED98C</source_id>
+    <value>FR</value>
+   </Item>
+   <Item type="Value" id="69D707C6C489480890856E41CA436079" action="add">
+    <label xml:lang="en">Germany</label>
+    <sort_order>4</sort_order>
+    <source_id keyed_name="labs_CountryList" type="List">4C5223B7981546488BD3692C85EED98C</source_id>
+    <value>DE</value>
+   </Item>
+   <Item type="Value" id="490D93FAC30642B1B93C16A4A825B3E6" action="add">
+    <label xml:lang="en">USA</label>
+    <sort_order>6</sort_order>
+    <source_id keyed_name="labs_CountryList" type="List">4C5223B7981546488BD3692C85EED98C</source_id>
+    <value>USA</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
