@@ -1,7 +1,12 @@
 ﻿<AML>
  <Item type="Method" id="6B3E788D6F364C2E806C169CC09D21A6" action="add">
+  <comments>Populates the Plant list field on form load</comments>
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
-  <method_code><![CDATA[
+  <method_code><![CDATA[// Aras Labs Project
+// Eli Donahue - 10/12/16
+//
+// Populates the Plant list field on form load
+
 var itm = document.thisItem;
 
 // get selected city
@@ -27,7 +32,7 @@ for (var i = 0; i < len; i++) {
 }
 
 var option = document.createElement("option");
-option.text = " ";
+option.innerText = " ";
 option.value = " ";
 plantField.add(option);
 
@@ -39,7 +44,7 @@ for (var i=0; i < plants.getItemCount(); i++)
     
     // create option item
     option = document.createElement("option");
-    option.text = p.getProperty("label","...");
+    option.innerText = p.getProperty("label","...");
     option.value = p.getProperty("value"," ");
     
     // add item to select list
@@ -61,8 +66,13 @@ if (itm.getProperty("labs_plant","") !== "")
         }
     }
 }
+else
+{
+   plantField.selectedIndex = 0; 
+}
 
-getFieldByName("labs_plant").value = plantField.value;
+// update plant field value
+aras.updateDomSelectLabel(plantField);
 ]]></method_code>
   <method_type>JavaScript</method_type>
   <name>labs_PopulatePlantList</name>

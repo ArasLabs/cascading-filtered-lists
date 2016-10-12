@@ -41,7 +41,7 @@
 	<Item type="Property" id="AEA7D27B4236496EA89A3665BF1FF5B2" action="add">
 		<column_alignment>left</column_alignment>
 		<data_source keyed_name="labs_PlantList">D08FBD31EFED446FB83F9D22E93742FB</data_source>
-		<data_type>list</data_type>
+		<data_type>filter list</data_type>
 		<is_hidden>0</is_hidden>
 		<is_hidden2>0</is_hidden2>
 		<is_indexed>0</is_indexed>
@@ -49,6 +49,7 @@
 		<is_multi_valued>0</is_multi_valued>
 		<is_required>0</is_required>
 		<label xml:lang="en">Plant</label>
+		<pattern>labs_city</pattern>
 		<range_inclusive>0</range_inclusive>
 		<readonly>0</readonly>
 		<sort_order>95384</sort_order>
