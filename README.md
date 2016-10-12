@@ -52,8 +52,8 @@ You are now ready to login to Aras and try out cascading filtered lists.
 4. Enter a name for the Part.
 5. Use the new filtered lists to set the source location for the Part.
   * Country: Select a country first to filter the city list for valid options.
-	* City: Select a city next to filter the plant list for valid options.
-	* Plant: Select a plant located in your chosen city and country.
+  * City: Select a city next to filter the plant list for valid options.
+  * Plant: Select a plant located in your chosen city and country.
 6. Save the Part.
 
 ![Cascading Filtered List Example](./Screenshots/screenshot1.PNG)
