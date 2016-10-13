@@ -4,8 +4,16 @@ This project demonstrates how cascading filtered lists can be implemented in Ara
 
 ## Project Details
 
-**Built Using:** Aras 11.0 SP7
-**Browsers Tested:** Internet Explorer 11, Firefox 38 ESR, Chrome
+See [TESTSTATUS file](./TESTSTATUS.md) for latest testing information.
+
+#### Built Using
+Aras 11.0 SP7
+
+#### Versions Tested:
+Aras 11.0 SP7, Aras 11.0 SP5 (open release)
+
+#### Browsers Tested:
+Internet Explorer 11, Firefox 38 ESR, Chrome
 
 > Though built and tested using Aras 11.0 SP7, this project should function in older releases of Aras 11.0 and Aras 10.0.
 
